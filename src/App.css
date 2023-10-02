@@ -1,0 +1,143 @@
+body{
+  background-color: #282c34;
+  transition: .5s ease all;
+}
+
+#section1{
+  width: 100%;
+  position:sticky;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px);
+}
+.navbar{
+  box-shadow: 0px 2px 15px rgb(97, 93, 93);
+  width: 100%;
+  margin: 1rem auto;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  height: 4rem; 
+}
+.left{
+  align-items: center;
+  width: fit-content;
+  margin: auto 1rem;
+  font-size: 25px;
+  color: white;
+  display: flex;
+}
+.left h2{
+  margin: auto 1.5rem;
+  transition: .5s ease all;
+}
+.left h2:hover{
+  scale: 1.2;
+  cursor: pointer;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  margin: auto;
+}
+ul li{
+  margin: auto 1.5rem;
+  font-size: 25px;
+  font-weight:700;
+  text-decoration: none;
+  transition: .5s ease all;
+  color: white;
+}
+li:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
+.right{
+  width: fit-content;
+  margin: auto 1rem;
+}
+
+.common{
+  background-color: transparent;
+  box-shadow: 0px 2px 10px rgb(137, 136, 136);
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 3rem;
+  margin: 25px auto;
+  transition: .5s ease all;
+  color: white;
+  border-radius: 10rem;
+}
+
+.song{
+  width: 25rem;
+  background-color: #282c34;
+  border-radius: 50%;
+  box-shadow:0px 2px 12px rgb(137, 136, 136);
+  transition: .5s ease all;
+}
+
+.logo_img{
+  width: 40px;
+}
+
+.heading_style{
+  font-size: 22px;
+  margin: auto 35px;
+  width: 100%;
+}
+
+#first{
+  width: 2.5rem;
+  margin: auto 50px;
+}
+
+#displaying{
+  display: flex;
+}
+
+.music_list{
+  width: 100%;
+  transition: .5s ease all;
+}
+
+.right_player{
+  width: 100%;
+  margin: auto;
+}
+
+#pop-menu{
+  display: none;
+}
+
+#pop-menu ul{
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+#pop-menu ul li{
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 1.8rem;
+  width: fit-content;
+}
+#pop-menu ul li a{
+  color: black;
+  text-decoration: none;
+}
+#menu,#close{
+  display: none;
+  width: fit-content;
+  padding: 1%;
+}
+
+#menu img{
+  width: 1.8rem;
+}
+
+#close img{
+  width: 2rem;
+}

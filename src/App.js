@@ -152,7 +152,7 @@ function App() {
               <h4 className='heading_style'>{track[7].title}</h4>
               <img src={icon} alt='icon' id='first' />
             </div>
-            <div className='common'> onClick={()=>musicPlay(8)}
+            <div className='common' onClick={()=>musicPlay(8)}>
               <h4 className='heading_style'>{track[8].title}</h4>
               <img src={icon} alt='icon' id='first' />
             </div>

@@ -120,41 +120,41 @@ function App() {
       <div id='displaying'>
         <div className='music_list'>
           <div style={{display: 'block',width: '100%',padding: '10px'}}>
-            <div className='common'>
+            <div className='common' onClick={()=>musicPlay(0)}>
               <h4 className='heading_style'>{track[0].title}</h4>
-              <img src={icon} alt='icon' id='first' onClick={()=>musicPlay(0)} />
+              <img src={icon} alt='icon' id='first' />
             </div>
-            <div className='common'>
+            <div className='common' onClick={()=>musicPlay(1)}>
               <h4 className='heading_style'>{track[1].title}</h4>
-              <img src={icon} alt='icon' id='first' onClick={()=>musicPlay(1)} />
+              <img src={icon} alt='icon' id='first' />
             </div>
-            <div className='common'>
+            <div className='common' onClick={()=>musicPlay(2)}>
               <h4 className='heading_style'>{track[2].title}</h4>
-              <img src={icon} alt='icon' id='first' onClick={()=>musicPlay(2)} />
+              <img src={icon} alt='icon' id='first' />
             </div>
-            <div className='common'>
+            <div className='common' onClick={()=>musicPlay(3)}>
               <h4 className='heading_style'>{track[3].title}</h4>
-              <img src={icon} alt='icon' id='first' onClick={()=>musicPlay(3)} />
+              <img src={icon} alt='icon' id='first' />
             </div>
-            <div className='common'>
+            <div className='common' onClick={()=>musicPlay(4)}>
               <h4 className='heading_style'>{track[4].title}</h4>
-              <img src={icon} alt='icon' id='first' onClick={()=>musicPlay(4)} />
+              <img src={icon} alt='icon' id='first' />
             </div>
-            <div className='common'>
+            <div className='common' onClick={()=>musicPlay(5)}>
               <h4 className='heading_style'>{track[5].title}</h4>
-              <img src={icon} alt='icon' id='first' onClick={()=>musicPlay(5)} />
+              <img src={icon} alt='icon' id='first' />
             </div>
-            <div className='common'>
+            <div className='common' onClick={()=>musicPlay(6)}>
               <h4 className='heading_style'>{track[6].title}</h4>
-              <img src={icon} alt='icon' id='first' onClick={()=>musicPlay(6)} />
+              <img src={icon} alt='icon' id='first' />
             </div>
-            <div className='common'>
+            <div className='common' onClick={()=>musicPlay(7)}>
               <h4 className='heading_style'>{track[7].title}</h4>
-              <img src={icon} alt='icon' id='first' onClick={()=>musicPlay(7)} />
+              <img src={icon} alt='icon' id='first' />
             </div>
-            <div className='common'>
+            <div className='common'> onClick={()=>musicPlay(8)}
               <h4 className='heading_style'>{track[8].title}</h4>
-              <img src={icon} alt='icon' id='first' onClick={()=>musicPlay(8)} />
+              <img src={icon} alt='icon' id='first' />
             </div>
           </div>
         </div>

@@ -43,6 +43,8 @@ function App() {
   const next = () => {
     document.getElementById('play').style.display='block';
     document.getElementById("pause").style.display="none";
+    sound.currentTime = 0;
+    document.getElementById('progress').style.width = 0;
     currTrack+=1;
     setTrack(currTrack);
     sound.src = track[currTrack].src;
@@ -53,6 +55,8 @@ function App() {
   const previous = () => {
     document.getElementById('play').style.display='block' ;
     document.getElementById("pause").style.display="none";
+    sound.currentTime = 0;
+    document.getElementById('progress').style.width = 0;
     currTrack-=1;
     setTrack(currTrack);
     sound.src = track[currTrack].src;
